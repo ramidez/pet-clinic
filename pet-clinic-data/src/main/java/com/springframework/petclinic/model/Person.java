@@ -10,7 +10,7 @@ public class Person extends BaseEntity{
     private String firstName;
 
     @Column(name = "last_name")
-    private String lasName;
+    private String lastName;
 
     public String getFirstName() {
         return firstName;
@@ -20,11 +20,11 @@ public class Person extends BaseEntity{
         this.firstName = firstName;
     }
 
-    public String getLasName() {
-        return lasName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLasName(String lasName) {
-        this.lasName = lasName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
