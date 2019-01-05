@@ -2,7 +2,6 @@ package com.springframework.petclinic.bootstrap;
 
 import com.springframework.petclinic.model.*;
 import com.springframework.petclinic.services.*;
-import org.apache.tomcat.jni.Local;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -65,7 +64,7 @@ public class DataLoader implements CommandLineRunner {
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
-        owner1.setAdress("123 Brickerl");
+        owner1.setAddress("123 Brickerl");
         owner1.setCity("Miami");
         owner1.setTelephone("123456");
 
@@ -80,7 +79,7 @@ public class DataLoader implements CommandLineRunner {
         Owner owner2 = new Owner();
         owner2.setFirstName("Fiona");
         owner2.setLastName("Glenanne");
-        owner2.setAdress("123 Brickerl");
+        owner2.setAddress("123 Brickerl");
         owner2.setCity("Miami");
         owner2.setTelephone("123456");
 
