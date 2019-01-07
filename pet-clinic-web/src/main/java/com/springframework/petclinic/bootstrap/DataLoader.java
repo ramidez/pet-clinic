@@ -23,11 +23,6 @@ public class DataLoader implements CommandLineRunner {
         this.specialityService = specialityService;
         this.visitService = visitService;
     }
-//
-//    public DataLoader() {
-//        ownerService = new OwnerServiceMap();
-//        vetService = new VetServiceMap();
-//    }
 
     @Override
     public void run(String... args) throws Exception {
